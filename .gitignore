@@ -1,4 +1,7 @@
 ﻿.sass-cache/
 node_modules/
+npm-debug.log
+.DS_Store
+/*.env
 *.sublime-project
 *.sublime-workspace
