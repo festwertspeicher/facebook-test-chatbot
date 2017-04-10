@@ -7,6 +7,11 @@ app.listen(80, function() {
 
 app.get('/*', function(req, res) {
     var jsonResponse = [];
-    jsonResponse.push({ "text": "Hi. " + (Math.random() * 5 + 1).toFixed(0) + " is a lucky number..." });
+    jsonResponse.push({
+      "messages": [
+        { "text": "Hi. your lucky number is:" },
+        { "text": "..." + (Math.random() * 5 + 1).toFixed(0) + "..." }
+      ]
+    });
     res.send(jsonResponse);
 });
