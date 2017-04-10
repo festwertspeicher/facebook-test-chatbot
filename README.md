@@ -1,2 +1,2 @@
 # facebook-test-chatbot
-this is a small test for using an api endpoint with my facebook chatbot
+sample node.js app using express 4, running on heroku, api endpoint used by chatfuel bot. just return random number.

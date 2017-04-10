@@ -1,13 +1,21 @@
 {
   "name": "facebook-test-chatbot",
-  "description": "a really cool app",
+  "description": "sample node.js app using express 4, running on heroku, api endpoint used by chatfuel bot",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "server.js"
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
   },
   "engines": {
     "node": "6.9.4"
-  }
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
 }
